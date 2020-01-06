@@ -50,4 +50,8 @@ sum(num.first.nsfc.young)
 sum(num.first.ministry.grant)
 sum(num.first.municipal.grant)
 sum(num.first.college.grant)
+
+aggregate(num.first.sci, by = list(year), sum)
+aggregate(if.cum.first.sci, by = list(year), sum)
+aggregate(num.first.nsfc.young, by = list(year), sum)
 detach(stats.5)
