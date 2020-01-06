@@ -2,6 +2,7 @@ rm(list = ls())
 
 # set working folder 
 setwd('/Users/stephenzhang/.nutstore/.nutstore/我的坚果云/Docs/PUMCH/医学科学研究中心.中心实验室.统计与生信平台事务/五年工作统计')
+setwd('C:/Jianguoyun/我的坚果云/Docs/PUMCH/医学科学研究中心.中心实验室.统计与生信平台事务/五年工作统计')
 
 # load necessary libraries 
 # no libraries 
@@ -20,4 +21,33 @@ sum(num.first.chin)
 
 sum(num.other.sci)
 sum(num.other.chin)
+max(as.numeric(if.highest.other.sci))
+
+sum(num.chapter)
+
+sum(num.first.nsfc.main)
+sum(num.first.nsfc.young)
+sum(num.first.ministry.grant)
+sum(num.first.municipal.grant)
+sum(num.first.college.grant)
 detach(stats.2019)
+
+head(stats.5)
+attach(stats.5)
+sum(num.first.sci)
+sum(if.cum.first.sci)
+max(if.highest.first.sci)
+sum(num.first.chin)
+
+sum(num.other.sci)
+sum(num.other.chin)
+max(as.numeric(if.highest.other.sci))
+
+sum(num.chapter)
+
+sum(num.first.nsfc.main)
+sum(num.first.nsfc.young)
+sum(num.first.ministry.grant)
+sum(num.first.municipal.grant)
+sum(num.first.college.grant)
+detach(stats.5)
