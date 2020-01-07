@@ -8,8 +8,8 @@ setwd('C:/Jianguoyun/我的坚果云/Docs/PUMCH/医学科学研究中心.中心�
 # no libraries 
 
 # load data 
-stats.2019 <-read.csv('stats.2019.46.import.csv')
-stats.5 <-read.csv('stats.5.47.import.csv')
+stats.2019 <-read.csv('stats.2019.50.import.csv')
+stats.5 <-read.csv('stats.5.51.import.csv')
 
 # descriptive analysis 
 head(stats.2019)
