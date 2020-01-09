@@ -10,6 +10,7 @@ setwd('C:/Jianguoyun/我的坚果云/Docs/PUMCH/医学科学研究中心.中心�
 # load data 
 stats.2019 <-read.csv('stats.2019.50.import.csv')
 stats.5 <-read.csv('stats.5.51.import.csv')
+grant.total.5 <- read.csv('grant.total.5.csv')
 
 # descriptive analysis 
 head(stats.2019)
@@ -55,3 +56,8 @@ aggregate(num.first.sci, by = list(year), sum)
 aggregate(if.cum.first.sci, by = list(year), sum)
 aggregate(num.first.nsfc.young, by = list(year), sum)
 detach(stats.5)
+
+attach(grant.total.5)
+head(grant.total.5)
+sum(grant.total)
+detach(grant.total.5)
